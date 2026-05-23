@@ -76,6 +76,7 @@ void setup() {
 }
 
 void loop() {
+
   handlePIR();
   applyRelayOutputs();
   pollFirebaseIfNeeded();
