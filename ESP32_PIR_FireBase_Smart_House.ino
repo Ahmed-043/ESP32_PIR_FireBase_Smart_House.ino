@@ -3,13 +3,13 @@
 
 // Wi-Fi credentials
 const char* ssid = "Home";
-const char* password = "MughalHome";
+const char* password = "wifipassword";
 
 // Firebase credentials
-#define API_KEY "AIzaSyCqs6trEd2Lm0RdaZOHAmqkriAUShbi-pg"
+#define API_KEY "firebase-API"
 #define DATABASE_URL "https://esp32-smart-home-5643e-default-rtdb.firebaseio.com/"
-#define USER_EMAIL "mughalprince11123@gmail.com"
-#define USER_PASSWORD "mughal13579"
+#define USER_EMAIL "you@email.com"
+#define USER_PASSWORD "password"
 
 // Relay GPIOs (active LOW)
 #define RELAY1 23
